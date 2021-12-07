@@ -14,3 +14,20 @@ html/css 실제로 써보기!
 2. border: solid/dashed : 테두리 선/점선 처리
 3. position: relative : 원래 있던 위치 기준 상대 위치 지정 (여기선 하위 요소들을 absolute로 이용하려고 사용했음)
 4. position: absolute : relative 설정인 상위 요소 기준으로 상대 위치 지정 가능
+
+## 2일차 
+
+* 가장 어려웠던 flex 부분. 미리 종이에 어떤 식으로 나눌지 대충 그려보고 진행했다.
+* 프로필 부분(1), 게시물 부분(2), 메뉴바 부분(3) 이렇게 나눠보았다.
+
+* 1-1 투데이 숫자, 1-2 대문사진 등
+* 2-1 타이틀 글, url , 2-2 게시물들 -> (나중에 타이틀글, url 두 개도 분리해줬다.) 
+* 3-1 메뉴판 네비게이터
+
+### 기억할 것
+1. 컨테이너 - item 의 관계
+    * `display: flex;` -> 컨테이너
+    * `flex: 설정값;` -> 아이템
+2. flex-direction 설정
+    * `flex-direction : 행, 열` 설정해주기  
+    * row vs column   
