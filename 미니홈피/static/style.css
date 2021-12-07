@@ -11,6 +11,8 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+
+  font-size : 16px;
 }
 
 .bookcover {
@@ -48,6 +50,87 @@ left : 10px;
 top : 10px;
 right : 10px;
 bottom : 10px;
-background-color: white;
+background-color: #eeeeee;
 border-radius: 9px;
+display: flex;
+padding : 15px;
+}
+
+.column1{
+  flex: 0.4;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+}
+
+.row1{
+  flex: 0.1;
+}
+.count{
+  margin-top: 10px;
+}
+.row2{
+  flex: 1;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid #cdcdcd;
+}
+
+.column2{
+  flex:1;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+}
+
+.row3{
+  flex: 0.1;
+  display:flex;
+}
+.title{
+  flex:1;
+  font-size: 1.5rem;
+  font-family: 'NeoDunggeunmo';
+  margin-top: 10px;
+}
+.url{
+  flex:1;
+  font-size: 0.8rem;
+  text-align: right;
+  margin-top: 20px;
+}
+.row4{
+  flex: 1;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid #cdcdcd;
+}
+
+.column3{
+  flex: 0.2;
+  border : 1px solid black;
+}
+
+.row1{
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.red{
+  color:red;
+}
+
+@font-face {
+  font-family: 'NeoDunggeunmo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');
 }
